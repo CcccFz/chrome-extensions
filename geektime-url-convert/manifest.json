@@ -1,0 +1,27 @@
+{
+    "name": "GeekTime URL Convert",
+    "description": "geektime url convert",
+    "manifest_version": 3,
+    "version": "1.0",
+    "permissions": [
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+      },
+      "default_title": "GeekTime URL Convert"
+    },
+    "icons": {
+      "16": "icon.png",
+      "32": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
