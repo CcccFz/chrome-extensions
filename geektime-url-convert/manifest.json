@@ -12,7 +12,9 @@
     "content_scripts": [
       {
         "matches": [
-          "http://*/*"
+          "http://localhost:9001/*",
+          "http://127.0.0.1:9001/*",
+          "http://192.168.110.100:9001/*"
         ],
         "js": ["content.js"]
       }
